@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+}
+.header-title h1 {
+    font-family: 'Bebas Neue';
+    font-size: 42px;
+    margin-left: 3px;
+    margin-top: 7px;
+}
+.header-a p a  {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.header-a p a:hover {
+    text-decoration: underline;
+}

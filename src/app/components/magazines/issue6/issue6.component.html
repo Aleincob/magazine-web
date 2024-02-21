@@ -1,0 +1,11 @@
+
+<main class="main"  [ngStyle]="{'background-color': this.backgroundColor}">
+    <img class=" main-img" [src]="'../../../../assets/images/' + imageUrl" alt="">
+    <div class="main-text-container">
+        <p class="main-p">Issue #6</p>
+        <a class="main-a" href="" [ngStyle]="{'color': this.color}"><strong>Buy here</strong></a>
+        <p class="main-p-a">
+           {{this.footerText}} <a href="" [ngStyle]="{'color': this.color}"><strong>selected stores</strong></a>.
+        </p>
+    </div>
+</main>
